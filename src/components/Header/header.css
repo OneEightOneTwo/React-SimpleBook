@@ -1,0 +1,112 @@
+Header {
+  height: 58px;
+  width: 100%;
+  background: #fff;
+  border-bottom: 1px solid #F7F7F7;
+  padding: 0 40px;
+  position: relative;
+}
+
+.logo {
+  position: absolute;
+  width: 100px;
+  height: 56px;
+  left: 40px;
+  cursor: pointer;
+}
+
+.h_Nav {
+  list-style: none;
+  float: left;
+  height: 58px;
+  box-sizing: content-box;
+  padding: 0 10px
+}
+
+.h_Nav li {
+  float: left;
+  height: 58px;
+  box-sizing: content-box;
+  padding: 0 10px;
+  margin-right: 10px;
+  cursor: pointer
+}
+
+.h_Nav li:hover {
+  background: #F0F0F0;
+}
+
+.h_Nav li i {
+  width: 20px;
+  height: 20px;
+  display: block;
+  float: left;
+  margin-top: 10px;
+  font-size: 22px;
+}
+
+.h_Nav li span {
+  color: #333;
+  font-size: 16px;
+  box-sizing: content-box;
+  padding: 15px 8px 0;
+  display: block;
+  float: left;
+}
+
+.h_Nav li:nth-child(1) i {
+  margin-top: 12px
+}
+
+.h_Nav li:nth-child(2) i {
+  margin-top: 15px;
+  font-size: 18px;
+}
+
+.h_Nav li:nth-child(3) i {
+  margin-top: 15px;
+  font-size: 18px;
+}
+
+.search {
+  float: left;
+  margin-top: 9px;
+  position: relative;
+}
+
+.search input {
+  width: 240px;
+  height: 38px;
+  border-style: none;
+  border: none;
+  outline-style: none;
+  border: 1px solid #eee;
+  border-radius: 40px;
+  background: #eee;
+  padding: 0 40px 0 20px;
+  font-size: 14px;
+  float: left;
+  transition: all .5s
+}
+
+.search i {
+  position: absolute;
+  right: 7px;
+  top: 4px;
+  width: 30px;
+  height: 30px;
+  font-size: 18px;
+  text-align: center;
+  color: #000;
+  line-height: 30px;
+}
+.right{
+        float: right;
+        margin-top: 15px;
+}
+.right .font{
+    font-size: 15px;
+    color: #969696;
+}
+
+
