@@ -2,8 +2,8 @@ import { Component } from 'react';
 import hc from './header.css'
 import logo from '../../assets/logo.png'
 import beta from '../../assets/beta.png'
-import { Popover, Button } from 'antd';
 
+import {ButtonToolbar,ButtonGroup} from 'react-bootstrap'
 export default class header extends Component {
     constructor(props) {
         super(props);
@@ -108,21 +108,14 @@ hide = () => {
 
                     {/* right-nav */}
                     <div className={hc.right}>
-                    <Popover
-        content={<a onClick={this.hide} ></a>}
-        title="Title"
-        trigger="click"
-        visible={this.state.visible}
-        onVisibleChange={this.handleVisibleChange}
-      >
-        <Button type="primary" className="iconfont icon-Aa"></Button>
-      </Popover>
+                  
                  
                     <a href="/">
                     <img src={beta} alt="" width="56" height="25"/></a>
                     <a href="/" className={hc.font}>登录</a>
                     </div>
               </div>
+
 
             </header>
         )
