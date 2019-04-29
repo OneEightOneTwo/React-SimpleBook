@@ -1,16 +1,16 @@
 import React from 'react';
 import { connect } from 'dva';
-import Header from '../../components/Header/Header.jsx'
+import HomePage from '../../views/honePage/homePage'
 
-function header() {
+function homePage() {
   return (
     <div>
-      <Header/>
+     <HomePage/>
     </div>
   );
 }
 
-header.propTypes = {
+homePage.propTypes = {
 };
 
-export default connect()(header);
+export default connect()(homePage);

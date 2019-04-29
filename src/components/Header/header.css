@@ -150,17 +150,15 @@ Header {
 
 }
 
-.sigin {
-  .reg {
-    color: #F39E8F;
-
-  }
-
-  .whte {
-    width: 100px;
-    height: 40px;
-    background: #EC6149;
-    color: #fff;
-    margin-left: 26px;
-  }
+.sigin  .whte {
+  width: 100px;
+  height: 40px;
+  background: #EC6149;
+  color: #fff;
+  margin-left: 26px;
 }
+.sigin .reg {
+  color: #F39E8F;
+
+}
+

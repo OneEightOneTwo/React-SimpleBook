@@ -1,5 +1,5 @@
 import { Component } from 'react';
-import hc from './header.scss'
+import hc from './header.css'
 import logo from '../../assets/logo.png'
 import beta from '../../assets/beta.png'
 
