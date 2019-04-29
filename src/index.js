@@ -1,7 +1,7 @@
 import dva from 'dva';
 import './index.css';
 import 'antd/dist/antd.css'
-// import './lib/bootstrap.css'
+
 // 1. Initialize
 const app = dva();
 

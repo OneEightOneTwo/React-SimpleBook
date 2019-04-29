@@ -100,13 +100,67 @@ Header {
   color: #000;
   line-height: 30px;
 }
-.right{
-        float: right;
-        margin-top: 15px;
-}
-.right .font{
-    font-size: 15px;
-    color: #969696;
+
+.right {
+  float: right;
+  margin-top: 15px;
 }
 
+.right .font {
+  font-size: 15px;
+  color: #969696;
+  margin-left: 22px;
 
+}
+
+.bt {
+  width: 10px;
+  float: left;
+}
+
+.bt .btn-toolbar .btn-primary {
+  background: #fff;
+  color: #969696;
+  width: 25px;
+  height: 25px;
+  font-size: 20px;
+}
+
+.i {
+  margin-left: 60px;
+}
+
+.sigin {
+  position: absolute;
+  right: 40px;
+  top: 0;
+  margin-top: 10px;
+}
+
+.sigin .reg,
+.whte {
+  width: 80px;
+  display: inline-block;
+  height: 38px;
+  border: 1px solid #F39E8F;
+  border-radius: 20px;
+  line-height: 38px;
+  font-size: 15px;
+  text-align: center;
+
+}
+
+.sigin {
+  .reg {
+    color: #F39E8F;
+
+  }
+
+  .whte {
+    width: 100px;
+    height: 40px;
+    background: #EC6149;
+    color: #fff;
+    margin-left: 26px;
+  }
+}
