@@ -26,7 +26,7 @@ main {
 
 .side {
   height: 100px;
-  /* background: red; */
+  
   margin-left: 10px
 }
 
@@ -49,6 +49,8 @@ main {
     height: 135px;
    border-bottom: 1px solid #ccc;
    padding: 15px 0;
+   position: relative;
+   box-sizing: content-box
 
 }
 .list li .title a{
@@ -64,5 +66,51 @@ main {
 font-size: 13px;
 line-height: 24px;
 color: #999;
+padding-right: 162px;
+}
+.wrapImg{
+    width: 150px;height: 100px;
+    display: block;
+    position: absolute;
+    right: 0;
+    background: red;
+    top: 12px;
+}
+.meta{
+    color:#b4b4b4;
+    font-size: 12px;
+}
+.meta .jsd{
+    color:#ea6f5a;
+    margin-right: 10px;
+    position: relative;
 }
 
+.meta span,.meta a{
+    position: relative;
+    
+}
+.meta .jsd,.meta .mes ,.meta .collect{
+    padding-left: 18px
+}
+.meta i{
+    position: absolute;
+    left: 0;
+    top: -4px;
+   
+}
+.meta a{
+    color:#b4b4b4;
+    margin-right: 10px;
+}
+.app{
+    width: 280px;
+    height: 82px;
+    padding:10px 22px
+}
+.app img{
+    float: left;
+}
+.app .cont{
+    float: left;
+}
